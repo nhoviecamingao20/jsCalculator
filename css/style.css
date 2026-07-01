@@ -1,23 +1,23 @@
 body{
-    background-color: hotpink;
+    background-color:lightpink;
     font-family: Arial, Helvetica, sans-serif;
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
-    height:100vh;
+    height: 100vh;
 }
 .holder{
-    background-color: cadetblue;
+    background-color: rgb(233, 191, 227);
     padding: 30px;
-    border-radius:10px;
-    box-shadow: 0 4px 8px black;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgb(241, 41, 231);
     text-align: center;
 
 }
 label{
-    display: black;
+    display: block;
     margin-bottom: 5px;
-    color: #4d0549;
+    color: #555;
 }
 .inputbox{
     margin-bottom: 15px;
@@ -25,16 +25,14 @@ label{
 input[type=text]{
     width: calc(100%-22px);
     border: 1px solid #ccc;
-   border-radius: 5px;
-    padding: 10pxx;
-    margin-bottom: 15px;
-
+    border-radius: 5px;
+    padding: 10px;
 }
 button{
     padding: 10px 20px;
-    border:none;
+    border: none;
     border-radius: 5px;
-    background-color: lightpink;
+    background-color: rgb(230, 122, 221);
     color: white;
     font-size: 16px;
 }
@@ -42,10 +40,11 @@ button{
     display: flex;
     justify-content:space-evenly;
     margin-top: 20px;
+
 }
 button:hover{
-    background-color: aqua;
-    color:rgb(red, green, blue)
+    background-color: rgb(243, 90, 184);
+    color: cadetblue;
 }
 
 
